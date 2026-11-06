@@ -1,0 +1,26 @@
+REFERRAL PIPELINE SUMMARY
+============================================================
+Referrals in source (user_referrals): 46
+Rows in final report:                 46
+Valid rewards (is_business_logic_valid = True):  24
+Invalid / not valid:                              22
+
+DATA QUALITY OBSERVATIONS
+------------------------------------------------------------
+user_logs: 29 rows but only 9 distinct users (duplicates removed)
+lead_logs: 8 rows but only 5 distinct leads (latest status kept)
+user_referral_logs: 78 distinct referral ids, but only 7 exist in user_referrals
+Referrals with no log entry: 39
+Referrals with no transaction id: 13
+Referral transaction ids not found in paid_transactions: 19
+Referrals with no referrer id: 13
+Referrals whose reward was granted (per logs): 0
+
+INVALID REASONS (a row can have several)
+------------------------------------------------------------
+  8  No reward value although a PAID transaction happened after the referral
+  5  Does not satisfy any valid-reward condition
+  3  Referral is 'Berhasil' but has no reward value (null or 0)
+  3  Reward value given but referral status is not 'Berhasil'
+  3  Transaction happened before the referral was created
+  1  Reward value given but the referral has no transaction

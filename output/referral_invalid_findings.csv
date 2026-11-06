@@ -1,0 +1,23 @@
+referral_id,referral_source,referral_status,num_reward_days,transaction_id,invalid_reason
+6371079a92bcbf0c16ae5fcdf4fc9c10,User Sign Up,Berhasil,,4c8cae052f19cea66544affc759b76ee,Referral is 'Berhasil' but has no reward value (null or 0)
+a49105b02e690472452527663559d97a,Draft Transaction,Tidak Berhasil,,91263eaf2af17ac140c6fc23a68882d3,No reward value although a PAID transaction happened after the referral
+fcb804c8ff24e5b2974a7e965ebea5e8,User Sign Up,Berhasil,,,Referral is 'Berhasil' but has no reward value (null or 0)
+9e9324e6fde29bb0d230654b38ccfdd4,Draft Transaction,Berhasil,20,e05121ea99fed4f4c5224a4667bb3dad,Does not satisfy any valid-reward condition
+835e990334fe52dec832043f19ddfd07,Draft Transaction,Berhasil,10,f192fca27d438c053db425fade152d66,Does not satisfy any valid-reward condition
+6667436490ad3c794a8f5127772d4810,Draft Transaction,Tidak Berhasil,,07f21743663aacb7d212c286d47a14de,No reward value although a PAID transaction happened after the referral
+d452feec722a5cabc03645bb089e2735,Lead,Menunggu,10,7709d17eaec03665f58904b72c8ab444,Reward value given but referral status is not 'Berhasil'
+a95d6a6cefee850333bb2df257cb2f79,Draft Transaction,Berhasil,10,0ad3f929bef2f8177db401bba99a6692,Does not satisfy any valid-reward condition
+6a585aa172036ab3cda99023016c7bff,Draft Transaction,Tidak Berhasil,,d3d0530307725b26e4bac8d6ec2072d8,No reward value although a PAID transaction happened after the referral
+1f44ffca9257eefe62892409bce4b704,Draft Transaction,Menunggu,,bd02c54aeca60d0e82f784be0ad4c84d,No reward value although a PAID transaction happened after the referral
+2751eafffb38a7baf6c35f8bfb5e58e8,Draft Transaction,Menunggu,,8623f36f36e709fbefe43defcac59583,No reward value although a PAID transaction happened after the referral
+61717d106753428549731b63554d70a5,Lead,Tidak Berhasil,10,da0071e2bb7794ac19ff4dbbb6e772f0,Reward value given but referral status is not 'Berhasil'
+3c2d868e7310b1690f1e7429d04b4c6b,Draft Transaction,Berhasil,10,e283b54d76844faaa985f83b037de8a2,Does not satisfy any valid-reward condition
+bfdc4ba9d1e89cd5f19ed6d239b7b06a,Draft Transaction,Menunggu,,c8d6bb873db3478e39a43260a0bbac1a,Transaction happened before the referral was created
+b7056002e75cd4b2583d8e8ee401e230,Draft Transaction,Menunggu,,93d48d85048e102d32d02df43138d283,Transaction happened before the referral was created
+3c2d4fcbb8d1bf5e82407fbae76b9917,Draft Transaction,Menunggu,,1d1eb8a9e864a1cccb2d850398461807,No reward value although a PAID transaction happened after the referral
+8882f8f02e658bd06627f9e0aedf9325,Lead,Menunggu,20,,Reward value given but referral status is not 'Berhasil'; Reward value given but the referral has no transaction
+e066aaa1b0384cd538e5590be41ce325,Draft Transaction,Menunggu,,e42431bb123d41cbedc3e796cbdcd985,Transaction happened before the referral was created
+24a62000845ed37ef32e5f5b697480c1,Draft Transaction,Tidak Berhasil,,09b9ee18ba1969f7ce8d23546ae09555,No reward value although a PAID transaction happened after the referral
+7a03e01e0c17b2322845242a796adb5e,User Sign Up,Berhasil,15,4c8cae052f19cea66544affc759b76ee,Does not satisfy any valid-reward condition
+e4b21d1dcdb37955b9e46b9357c7d0fe,User Sign Up,Berhasil,,,Referral is 'Berhasil' but has no reward value (null or 0)
+c98844d50327681160b17baa8756984a,Draft Transaction,Menunggu,,62afd56341d234457415c97c9c866aa9,No reward value although a PAID transaction happened after the referral
