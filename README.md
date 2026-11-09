@@ -98,7 +98,7 @@ A referral is **valid** when it meets a valid condition and triggers no invalid 
 
 Anything meeting neither V1 nor V2 is also FALSE (reported as "Does not satisfy any valid-reward condition").
 
-## Assumptions and decisions (please review)
+## Assumptions and decisions 
 
 - **Nulls vs 46 rows.** The brief says nulls should not exist, but also expects 46 rows (one per referral). Rows are never dropped; after the rules are evaluated, nulls become `Unknown` / `No Transaction` / `0` / `1900-01-01 00:00:00`. A placeholder date is not a real date; it is explained in the data dictionary.
 - **Before/after** uses exact UTC instants, not two local clocks (Makassar is 1 hour ahead of Jakarta, which would give wrong answers). **Same month** is judged in the referral's local zone.
